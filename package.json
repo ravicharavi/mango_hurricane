@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "commit": "bash scripts/commit-and-push.sh",
+    "push": "git push origin main"
   },
   "dependencies": {
     "react": "^18.2.0",
